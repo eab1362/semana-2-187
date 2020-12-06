@@ -9,6 +9,8 @@
 </template>
 
 <script>
+import Items from './components/Items.vue'
+import axios from 'axios'
 import HelloWorld from './components/HelloWorld.vue'
 import Footer from './components/Footer.vue'
 import Integrantes from './components/Integrantes.vue'
