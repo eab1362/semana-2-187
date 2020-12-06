@@ -1,8 +1,8 @@
 <template>
-<Div class="container-fluid">
+<div class="container-fluid p-0 m-0">
  <nav class=" d-flex navbar navbar-expand-sm bg-dark navbar-dark align-self-start">
   <!-- Brand/logo -->
-  <a class=" mr-auto p-2 navbar-brand" href="#">Logo</a>
+  <a class=" mr-auto p-2 navbar-brand" href="#">GRUPO 187</a>
   
   <!-- Links -->
   <ul class=" p-2 navbar-nav align-self-end"  >
@@ -29,13 +29,13 @@
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://placeimg.com/1000/500/nature" alt="Los Angeles">
+      <img src="https://placeimg.com/1000/300/nature" alt="Los Angeles">
     </div>
     <div class="carousel-item">
-      <img src="https://placeimg.com/1000/500/tech" alt="Chicago">
+      <img src="https://placeimg.com/1000/300/tech" alt="Chicago">
     </div>
     <div class="carousel-item">
-      <img src="https://placeimg.com/1000/500/arch" alt="New York">
+      <img src="https://placeimg.com/1000/300/arch" alt="New York">
     </div>
   </div>
 

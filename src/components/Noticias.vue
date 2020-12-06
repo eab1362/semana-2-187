@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid ">
     <div class="row">
       <div
         class="col-sm-6"
@@ -7,12 +7,21 @@
         v-for="(noti, index) of noticias"
         :key="index"
       >
-        <div class="card" style="width: 400px height:600px"  >
-          <img class="card-img-top" width= "300px" height= "200px" :src="noti.urlToImage" alt="Card image" />
-          <div class="card-body" style="height: 200px">
-            <h4 class="card-title">{{noti.title}}</h4>
-            <p class="card-text">{{noti.description}}</p>"
-            <a v-bind:href="noti.url" class="btn btn-primary">Saber más</a>
+        <div class="card" style="width: 400px height:600px">
+          <img
+            class="card-img-top"
+            width="300px"
+            height="200px"
+            :src="noti.urlToImage"
+            alt="Card image"
+          />
+          <div class="card-body" style="height: 250px">
+            <h4 class="card-title">{{ noti.title }}</h4>
+            <p class="card-text">{{ noti.description }}</p>
+            <div class="d-flex align-items-end container-fluid">
+              <a v-bind:href="noti.url" class="btn btn-primary  align-self-end">
+              Saber más</a>
+            </div>
           </div>
         </div>
       </div>
@@ -46,6 +55,3 @@ export default {
   },
 };
 </script>
-
-
-
