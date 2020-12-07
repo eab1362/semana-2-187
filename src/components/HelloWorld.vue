@@ -7,13 +7,13 @@
   <!-- Links -->
   <ul class=" p-2 navbar-nav align-self-end"  >
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
+      <a class="nav-link" href="#">Inicio</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
+      <a class="nav-link" href="#noticias">Noticias</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 3</a>
+      <a class="nav-link" href="#team">Integrantes</a>
     </li>
   </ul>
 </nav>
