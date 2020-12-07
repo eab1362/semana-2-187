@@ -1,14 +1,17 @@
 <template>
         <div class="container">
-            <div class="integrantes-container" v-for="(Itemtem, index) in Items" :key="index" >
-
+             <div class="row">
+            <div class="integrantes-container" v-for="(Itemtem, index) in items" :key="index" >
+<div class="col-sm">
                 <teamCard
-                    v-bind:image="image"
-                    v-bind:nombre="nombre"
-                    v-bind:descripcion="descripcion"
-                    v-bind:rol="rol"
+                    v-bind:image="Itemtem.image"
+                    v-bind:nombre="Itemtem.nombre"
+                    v-bind:descripcion="Itemtem.descripcion"
+                    v-bind:rol="Itemtem.rol"
                 />
+</div>
             </div>
+             </div>
         </div>
 </template>
 
@@ -21,7 +24,8 @@ export default {
         teamCard,
     },
 
-    data:{
+    data(){
+        return{
         items:[
         {
             codigo: 1,
@@ -67,6 +71,7 @@ export default {
             rol: 'Desarrollador Backend',
             image: 'https://placeimg.com/200/300/people'
         };*/
+    };
     },
 };
 </script>
