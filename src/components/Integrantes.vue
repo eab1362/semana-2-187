@@ -1,5 +1,5 @@
 <template>
-  <div class="container  ">
+  <div class="container  " id="team">
     <div class="d-inline-flex ">
       <div
         class="integrantes-container"
